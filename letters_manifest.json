@@ -1,0 +1,333 @@
+{
+  "_comment": "Letter Plinth \u2014 render manifest. Each entry in 'characters' drives one OpenSCAD render.",
+  "_version": "1.0.0",
+  "scad_file": "textured_contrast_letters.scad",
+  "output_dir": "stl",
+  "defaults": {
+    "_comment": "These values are passed as -D overrides to every render. Override per-character as needed.",
+    "plinth_thickness": 2,
+    "plinth_width_left": 25,
+    "plinth_width_right": 25,
+    "letter_size": 150,
+    "letter_extrude_height": 2.5,
+    "letter_y_offset": 25,
+    "texture_width": 200,
+    "texture_height": 200,
+    "bump_spacing": 3,
+    "bump_radius": 1,
+    "bump_fn": 8
+  },
+  "characters": [
+    {
+      "letter": "A",
+      "output": "upper_A.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "B",
+      "output": "upper_B.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "C",
+      "output": "upper_C.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "D",
+      "output": "upper_D.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "E",
+      "output": "upper_E.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "F",
+      "output": "upper_F.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "G",
+      "output": "upper_G.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "H",
+      "output": "upper_H.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "I",
+      "output": "upper_I.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "J",
+      "output": "upper_J.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "K",
+      "output": "upper_K.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "L",
+      "output": "upper_L.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "M",
+      "output": "upper_M.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "N",
+      "output": "upper_N.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "O",
+      "output": "upper_O.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "P",
+      "output": "upper_P.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "Q",
+      "output": "upper_Q.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "R",
+      "output": "upper_R.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "S",
+      "output": "upper_S.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "T",
+      "output": "upper_T.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "U",
+      "output": "upper_U.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "V",
+      "output": "upper_V.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "W",
+      "output": "upper_W.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "X",
+      "output": "upper_X.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "Y",
+      "output": "upper_Y.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "Z",
+      "output": "upper_Z.stl",
+      "group": "uppercase"
+    },
+    {
+      "letter": "a",
+      "output": "lower_a.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "b",
+      "output": "lower_b.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "c",
+      "output": "lower_c.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "d",
+      "output": "lower_d.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "e",
+      "output": "lower_e.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "f",
+      "output": "lower_f.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "g",
+      "output": "lower_g.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "h",
+      "output": "lower_h.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "i",
+      "output": "lower_i.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "j",
+      "output": "lower_j.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "k",
+      "output": "lower_k.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "l",
+      "output": "lower_l.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "m",
+      "output": "lower_m.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "n",
+      "output": "lower_n.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "o",
+      "output": "lower_o.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "p",
+      "output": "lower_p.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "q",
+      "output": "lower_q.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "r",
+      "output": "lower_r.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "s",
+      "output": "lower_s.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "t",
+      "output": "lower_t.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "u",
+      "output": "lower_u.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "v",
+      "output": "lower_v.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "w",
+      "output": "lower_w.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "x",
+      "output": "lower_x.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "y",
+      "output": "lower_y.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "z",
+      "output": "lower_z.stl",
+      "group": "lowercase"
+    },
+    {
+      "letter": "0",
+      "output": "digit_0.stl",
+      "group": "digits"
+    },
+    {
+      "letter": "1",
+      "output": "digit_1.stl",
+      "group": "digits"
+    },
+    {
+      "letter": "2",
+      "output": "digit_2.stl",
+      "group": "digits"
+    },
+    {
+      "letter": "3",
+      "output": "digit_3.stl",
+      "group": "digits"
+    },
+    {
+      "letter": "4",
+      "output": "digit_4.stl",
+      "group": "digits"
+    },
+    {
+      "letter": "5",
+      "output": "digit_5.stl",
+      "group": "digits"
+    },
+    {
+      "letter": "6",
+      "output": "digit_6.stl",
+      "group": "digits"
+    },
+    {
+      "letter": "7",
+      "output": "digit_7.stl",
+      "group": "digits"
+    },
+    {
+      "letter": "8",
+      "output": "digit_8.stl",
+      "group": "digits"
+    },
+    {
+      "letter": "9",
+      "output": "digit_9.stl",
+      "group": "digits"
+    }
+  ],
+  "_comment_texture_perf": "bump_spacing=3 gives ~4,500 spheres/letter vs 40,000 at spacing=1. bump_fn=8 halves per-sphere triangle count vs fn=12. Bump size (radius=1) is unchanged \u2014 only density and mesh resolution reduced."
+}
